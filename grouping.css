@@ -1,0 +1,76 @@
+/*=====================
+	Font Size
+=======================*/
+
+/*===1.4rem = 14px===========*/
+
+
+.contact-list li,
+.social-list li a,
+.contact-list li a,
+.menu-list li,
+.menu-list li a,
+.food-menu .dish .dish-description,
+.open-hrs-section .table-schedule .border h5 {
+	font-size: 1.4rem;
+}
+
+/*===1.6rem = 16px===========*/
+.read-more-btn,
+.about-us .left-section p,
+.food-menu .dish .dish-name,
+.events-section .item p,
+.customer-say .container .customer-item figcaption,
+.customer-say .container .customer-item .customer-review,
+.open-hrs-section .table-schedule .border h4, 
+.footer-first .footer-box,
+.footer-first .footer-box .newsletter-form input[type="email"],
+.footer-first .footer-box .newsletter-form input[type="submit"],
+.footer-second .container
+{
+	font-size: 1.6rem;
+}
+
+
+/*===1.8rem = 18px===========*/
+.banner-section .container p,
+.book-table .choose-box,
+.food-menu .button-group .button,
+.blog-section .item .article-header,
+
+{
+	font-size: 1.8rem;
+}
+
+
+/*=================================
+	Color Grouping
+===================================*/
+
+.read-more-btn:hover,
+.logo-container h1,
+.banner-section .container h3,
+.article-subtitle,
+.choose-box input[type=checkbox]:checked + .name,
+.food-menu .button-group .button:hover,
+.food-menu .button-group .button:focus,
+.food-menu .dish .dish-name:hover,
+.blog-section .item .admin-link a,
+.blog-section .item .article-btn:hover,
+.footer-first .footer-box .footer-title,
+.footer-first .footer-box svg,
+.footer-second .container a{
+	color: #12a84e;
+}
+
+.read-more-btn,
+.best-of-chef .owl-carousel .owl-nav button[class*="owl-"]:hover,
+.best-of-chef .owl-carousel .owl-nav::before,
+.events-section .owl-carousel .owl-nav button.owl-prev:hover,
+.events-section .owl-nav button.owl-next:hover,
+.customer-say .owl-carousel .owl-nav button.owl-prev:hover,
+.customer-say .owl-nav button.owl-next:hover,
+.open-hrs-section,
+.footer-first .footer-box .newsletter-form input[type="submit"] {
+	background: #12a84e;
+}
